@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durbin</title>
+
+     <!--Swiper Cdn-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/faysal.jpg" class="">
+        <div class="info">
+            <h3>Faysal Hossain</h3>
+            <a href="#"><p><button>Know more</button></p></a>
+            
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/rafid.jpg" class="">
+        <div class="info">
+            <h3>Rafid Tawhid</h3>
+            <a href="#"><p><button>Know more</button></p></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/ador.jpg" class="">
+        <div class="info">
+            <h3>Abdullah Al hasan</h3>
+            <a href="#"><p><button>Know more</button></p></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/tipu.jpg" class="">
+        <div class="info">
+            <h3>Zayan Tipu</h3>
+            <a href="#"><p><button>Know more</button></p></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/sabbir.jpg" class="">
+        <div class="info">
+            <h3>Sabbair Hossain Turjo</h3>
+            <a href="#"><p><button>Know more</button></p></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/turag.jpg" class="">
+        <div class="info">
+            <h3>Nirob Turag</h3>
+            <a href="#"><p><button>Know more</button></p></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/israt.jpg" class="">
+        <div class="info">
+            <h3>Israt Rawshan Khan</h3>
+            <a href="#"><p><button>Know more</button></p></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/tuktuki.jpg" class="">
+        <div class="info">
+            <h3>Suchismita Hossain</h3>
+            <a href="#"><p><button>Know more</button></p></a>
+        </div>
+      </div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    
+  </div>
+
+
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 40,
+          centeredslides:true,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+</body>
+</html>
